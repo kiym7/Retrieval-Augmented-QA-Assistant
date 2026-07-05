@@ -1,4 +1,4 @@
-# Retrieval-Augmented Q&A Assistant
+# Retrieval-Augmented QA Assistant
 
 > 基于 **Streamlit** 与 **LangChain** 构建的本地知识库 RAG 智能问答系统。支持纯文本文档的在线上传、向量化存储，并能结合大语言模型进行精准的检索增强问答与多轮对话。
 
@@ -17,16 +17,16 @@
 ##效果预览
 ---
 <!-- 智能客服示例图 -->
-<div align="left">
-  <img src="./assets/chat_demo1.png" width="750" alt="智能客服聊天界面示例 1">
-</div>
+![智能客服聊天界面示例 1](assets/chat_demo1.png)
 
 - 本地知识库预存了衣物尺码推荐表、材质维护、穿衣搭配等示例内容（data见assets）
 - 对标电商，可按个人需求替换为自己的业务文本
+
 ---
-<div align="left">
-  <img src="./assets/chat_demo2.png" width="750" alt="智能客服聊天界面示例 2">
-</div>
+
+![智能客服聊天界面示例 2](assets/chat_demo2.png)
+
+- 支持结合历史消息进行连续问答
 
 - 支持结合历史消息进行连续问答
 
